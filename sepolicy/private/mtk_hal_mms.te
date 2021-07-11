@@ -7,3 +7,6 @@ allow { appdomain -isolated_app } mtk_hal_mms_hwservice:hwservice_manager find;
 # Allow binder calls from untrusted_app_29 to mtk_hal_mms and vice versa
 binder_call(untrusted_app_29, mtk_hal_mms)
 binder_call(mtk_hal_mms, untrusted_app_29)
+
+# Receive and use open file descriptors inherited from gmscore
+allow mtk_hal_mms gmscore_app:fd use;
