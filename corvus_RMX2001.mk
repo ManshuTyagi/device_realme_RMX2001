@@ -36,10 +36,10 @@ PRODUCT_MODEL := Realme G90T Series
 PRODUCT_MANUFACTURER := realme
 
 # Build info
-BUILD_FINGERPRINT := "google/sunfish/sunfish:11/RQ3A.210705.001/7380771:user/release-keys"
+BUILD_FINGERPRINT := "google/coral/coral:11/RQ3A.210805.001.A1/7474174:user/release-keys"
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE=RMX2001 \
     PRODUCT_NAME=RMX2001 \
-    PRIVATE_BUILD_DESC="sunfish-user 11 RQ3A.210705.001 7380771 release-keys"
+    PRIVATE_BUILD_DESC="full_oppo6785-user 10 QP1A.190711.020 0b36b6c4f9b3bf3b release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
